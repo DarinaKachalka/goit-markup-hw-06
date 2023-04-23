@@ -59,7 +59,7 @@
     <main>
       <section class="control-panel">
         <div class="container">
-          <h1 hidden class="control-panel-title">Control Panel</h1>
+          <h1 class="control-panel-title visually-hidden">Control Panel</h1>
           <ul class="control-panel-list list">
             <li class="control-panel-item">
               <button type="button" class="control-panel-buttom">All</button>
@@ -334,6 +334,25 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-email-container">
+          <p class="footer-input-title">Subscribe</p>
+          <form class="footer-form">
+            <div class="footer-form-input-button">
+              <input
+                type="email"
+                name="user_email"
+                class="footer-modal-form-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-form-button">
+                Subscribe
+                <svg class="footer-plane-icon" width="24" height="24">
+                  <use href="./images/for_sprite/sprite.svg#icon-plane"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
